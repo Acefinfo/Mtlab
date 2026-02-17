@@ -1,3 +1,6 @@
+Project_path = 'E:\Matlab\Week_1';  % Define the project path
+cd(Project_path);  % Change the current directory to the project path
+
 A = [1 2 3; 4 5 6; 7 8 9];
 B = [9 8 7; 6 5 4; 3 2 1];
 

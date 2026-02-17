@@ -1,3 +1,6 @@
+Project_path = 'E:\Matlab\Week_1';  % Define the project path
+cd(Project_path);  % Change the current directory to the project path
+
 a = 5;          % Assign value 5 to variable 'a'
 b = 10;         % Assign value 10 to variable 'b'
 c = a + b;      % Add 'a' and 'b'
