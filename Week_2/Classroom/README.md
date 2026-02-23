@@ -83,7 +83,19 @@ All output images were saved in the `Classroom/Output/` directory for reference.
 - `Task1_Image_visualization.m`: Script for Task 1.
 - `Task2_Image_manpaluation.m`: Script for Task 2 (note: filename has a typo, should be "manipulation").
 - `Task3_CaseStudy_Analysis.m`: Script for Task 3.
-- `Output/`: Directory containing saved images from all tasks.
+- `Output/`: Directory containing saved images from all tasks:
+  - `lena-Colour.png`: Copy of the original color image (saved in Task 1 for reference).
+  - `lena-Gray.png`: Grayscale conversion of the original color image (from Task 2, reducing to single channel).
+  - `lena-YCbCr.png`: Image converted from RGB to YCbCr color space (from Task 3, separating luminance and chrominance).
+  - `lena-HSV.png`: Image converted from RGB to HSV color space (from Task 3, representing hue, saturation, and value).
+  - `lena-Reconstructed-YCbCr.png`: Image reconstructed back to RGB from YCbCr (from Task 3, demonstrating reversibility).
 - `README.md`: This summary file.
+
+## Image References
+The following images were used in the tasks and are located in the `Asset/` directory:
+- `Asset\lena-Colour.png`: A standard color test image of Lena Söderberg, widely used in image processing research and demonstrations.
+- `Asset\cameraman.tif`: A grayscale test image featuring a cameraman, commonly used for image processing examples and tutorials.
+
+These images serve as sample data for demonstrating various image processing techniques.
 
 For more details on any specific function, refer to MATLAB's documentation or the Image Processing Toolbox help.
