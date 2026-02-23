@@ -80,16 +80,16 @@ By the end of the session, students gained practical experience with:
 All output images were saved in the `Classroom/Output/` directory for reference.
 
 ## Files in This Directory
-- `Task1_Image_visualization.m`: Script for Task 1.
-- `Task2_Image_manpaluation.m`: Script for Task 2 (note: filename has a typo, should be "manipulation").
-- `Task3_CaseStudy_Analysis.m`: Script for Task 3.
+- [Task1_Image_visualization.m](Task1_Image_visualization.m): Script for Task 1.
+- [Task2_Image_manpaluation.m](Task2_Image_manpaluation.m): Script for Task 2 (note: filename has a typo, should be "manipulation").
+- [Task3_CaseStudy_Analysis.m](Task3_CaseStudy_Analysis.m): Script for Task 3.
 - `Output/`: Directory containing saved images from all tasks:
-  - `lena-Colour.png`: Copy of the original color image (saved in Task 1 for reference).
-  - `lena-Gray.png`: Grayscale conversion of the original color image (from Task 2, reducing to single channel).
-  - `lena-YCbCr.png`: Image converted from RGB to YCbCr color space (from Task 3, separating luminance and chrominance).
-  - `lena-HSV.png`: Image converted from RGB to HSV color space (from Task 3, representing hue, saturation, and value).
-  - `lena-Reconstructed-YCbCr.png`: Image reconstructed back to RGB from YCbCr (from Task 3, demonstrating reversibility).
-- `README.md`: This summary file.
+  - [lena-Colour.png](Output/lena-Colour.png): Copy of the original color image (saved in Task 1 for reference).
+  - [lena-Gray.png](Output/lena-Gray.png): Grayscale conversion of the original color image (from Task 2, reducing to single channel).
+  - [lena-YCbCr.png](Output/lena-YCbCr.png): Image converted from RGB to YCbCr color space (from Task 3, separating luminance and chrominance).
+  - [lena-HSV.png](Output/lena-HSV.png): Image converted from RGB to HSV color space (from Task 3, representing hue, saturation, and value).
+  - [lena-Reconstructed-YCbCr.png](Output/lena-Reconstructed-YCbCr.png): Image reconstructed back to RGB from YCbCr (from Task 3, demonstrating reversibility).
+- [README.md](README.md): This summary file.
 
 ## Image References
 The following images were used in the tasks and are located in the `Asset/` directory:
@@ -97,5 +97,28 @@ The following images were used in the tasks and are located in the `Asset/` dire
 - `Asset\cameraman.tif`: A grayscale test image featuring a cameraman, commonly used for image processing examples and tutorials.
 
 These images serve as sample data for demonstrating various image processing techniques.
+
+## Sample Images
+Here are some sample images used and generated during the tasks:
+
+### Input Images
+![Lena Colour Image](../Asset/lena-Colour.png)
+*Original color image of Lena used in Tasks 1-3.*
+
+![Cameraman Image](../Asset/cameraman.tif)
+*Grayscale cameraman image used in Tasks 1-2.*
+
+### Processed Images
+![Grayscale Lena](Output/lena-Gray.png)
+*Grayscale version of Lena (from Task 2).*
+
+![YCbCr Lena](Output/lena-YCbCr.png)
+*Lena converted to YCbCr color space (from Task 3).*
+
+![HSV Lena](Output/lena-HSV.png)
+*Lena converted to HSV color space (from Task 3).*
+
+![Reconstructed Lena from YCbCr](Output/lena-Reconstructed-YCbCr.png)
+*Lena reconstructed back to RGB from YCbCr (from Task 3).*
 
 For more details on any specific function, refer to MATLAB's documentation or the Image Processing Toolbox help.
