@@ -8,46 +8,68 @@ This folder collects the Week 1 MATLAB exercises: basic commands, arithmetic and
 
 - Open MATLAB and set the Current Folder to this directory (Matlab/Week_1).
 - Run any script by opening it in the Editor and pressing F5 or by typing `run('filename')` in the Command Window.
-- Example: to run the introductory script, run `intro` or open [Matlab/Week_1/intro.m](Matlab/Week_1/intro.m).
+- Example: to run the introductory script, run `intro` or open [intro.m](intro.m).
 
 ## Files and short descriptions
 
-- **Matlab/Week_1/intro.m**: Introductory script showing basic MATLAB commands, variable assignment, display, and the example equation Y = (A*B) + (C - D)/X. Use this file to learn how to write and run a script.
-- **Matlab/Week_1/Basic_Math_Opera.m**: Demonstrations of scalar arithmetic operations (addition, subtraction, multiplication, division, exponentiation) and short exercises on operator precedence.
-- **Matlab/Week_1/Matrics_operation.m**: Matrix creation and matrix operations: addition, subtraction, multiplication, transpose, determinant, inverse, and eigenvalues.
-- **Matlab/Week_1/Basics_image.m**: Basic image I/O and display: `imread`, `imshow`, `size`, `class`, and `imfinfo` usage examples.
-- **Matlab/Week_1/Image_processing.m**: General image manipulation examples such as cropping, adding images, blending, and other transformations.
-- **Matlab/Week_1/image_enhancement.m**: Image enhancement techniques: convert to grayscale, `imadjust`, histogram equalization (`histeq`), noise addition and removal (`imnoise`, `medfilt2`).
-- **Matlab/Week_1/Saving_exporting.m**: Examples showing how to save images with `imwrite` and export MATLAB variables or image data to `.mat` files using `save`.
-- **Matlab/Week_1/Asset/**: Folder for input images or support files (example images such as `lena.png`).
-- **Matlab/Week_1/Output/**: Folder for generated outputs (for example, `image_data.mat`).
+- **[intro.m](intro.m)**: Introductory script showing basic MATLAB commands, variable assignment, display, and the example equation Y = (A*B) + (C - D)/X. Use this file to learn how to write and run a script.
+- **[Basic_Math_Opera.m](Basic_Math_Opera.m)**: Demonstrations of scalar arithmetic operations (addition, subtraction, multiplication, division, exponentiation) and short exercises on operator precedence.
+- **[Matrics_operation.m](Matrics_operation.m)**: Matrix creation and matrix operations: addition, subtraction, multiplication, transpose, determinant, inverse, and eigenvalues.
+- **[Basics_image.m](Basics_image.m)**: Basic image I/O and display: `imread`, `imshow`, `size`, `class`, and `imfinfo` usage examples.
+- **[Image_processing.m](Image_processing.m)**: General image manipulation examples such as cropping, adding images, blending, and other transformations.
+- **[image_enhancement.m](image_enhancement.m)**: Image enhancement techniques: convert to grayscale, `imadjust`, histogram equalization (`histeq`), noise addition and removal (`imnoise`, `medfilt2`).
+- **[Saving_exporting.m](Saving_exporting.m)**: Examples showing how to save images with `imwrite` and export MATLAB variables or image data to `.mat` files using `save`.
+- **[Asset/](Asset/)**: Folder for input images or support files (example images such as `Asset1.jpg` and `Asset2.jpg`).
+- **[Output/](Output/)**: Folder for generated outputs (for example, `image_data.mat` and `CustomColored.png`).
+
+## Sample Images
+
+Here are some sample images used in the scripts:
+
+![Asset1](Asset/Asset1.jpg)
+
+![Asset2](Asset/Asset2.jpg)
+
+![Custom Colored Output](Output/CustomColored.png)
 
 ## Detailed per-file explanation and brief intros
 
-- **Matlab/Week_1/intro.m**
+- **[intro.m](intro.m)**
   - Intro: teaches the MATLAB UI, the Command Window, and how to write/run scripts.
   - Contents: variable assignment (a, b, c), `disp()`, `clc`, and the task script for computing `Y = (A * B) + (C - D) / X` with example values.
   - Run: open the file in the Editor and press F5 or run `intro` in Command Window.
 
-- **Matlab/Week_1/Basic_Math_Opera.m**
+- **[Basic_Math_Opera.m](Basic_Math_Opera.m)**
   - Intro: shows basic scalar math operations and the effect of operator precedence.
   - Contents: examples for `+`, `-`, `*`, `/`, `^`, and combined expressions. Exercises ask you to compute compound expressions and observe results.
 
-- **Matlab/Week_1/Matrics_operation.m**
+- **[Matrics_operation.m](Matrics_operation.m)**
   - Intro: demonstrates building matrices and performing matrix algebra.
   - Contents: example 3x3 matrices `A` and `B`, `A + B`, `A - B`, `A * B`, `det(A)`, `inv(A)`, `A'`, and `eig(A)` to illustrate common matrix functions.
 
-- **Matlab/Week_1/Basics_image.m**
+- **[Basics_image.m](Basics_image.m)**
   - Intro: reading and inspecting images.
   - Contents: `imread('...')`, `imshow()`, `size()`, `class()`, `imfinfo()` and a quick check to detect grayscale vs RGB images.
+  - Example output: ![Sample Image Display](Asset/Asset1.jpg)
 
-- **Matlab/Week_1/Image_processing.m**
+- **[Image_processing.m](Image_processing.m)**
   - Intro: basic spatial operations and image composition.
   - Contents: examples for changing working directory, cropping (`imcrop`), adding two images (element-wise) and blending images (weighted sum with `imlincomb` or simple arithmetic), plus small workflows for combining images of same size.
 
-- **Matlab/Week_1/image_enhancement.m**
+- **[image_enhancement.m](image_enhancement.m)**
   - Intro: enhancement and filtering techniques.
   - Contents: `rgb2gray`, `imresize`, `imrotate`, `imadjust`, `histeq`, `imnoise`, and `medfilt2` to demonstrate contrast improvement and noise reduction.
+
+- **[Saving_exporting.m](Saving_exporting.m)**
+  - Intro: saving and exporting data.
+  - Contents: `imwrite` for images and `save` for MATLAB variables to `.mat` files.
+
+- **[Extra_week1.m](Extra_week1.m)**
+  - Additional exercises and examples for Week 1.
+
+## References
+
+For more information on MATLAB, refer to the [MATLAB Documentation](https://www.mathworks.com/help/matlab/).
 
 - **Matlab/Week_1/Saving_exporting.m**
   - Intro: how to persist results and export images/data.
