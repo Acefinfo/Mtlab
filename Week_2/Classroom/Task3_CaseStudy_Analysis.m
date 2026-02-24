@@ -64,7 +64,7 @@ title("Hue (H channel) of Image A");
 reconstructedRGB_YCbCr = ycbcr2rgb(ybcrImageA);
 
 figure("Name", "Reversibility Check");
-imshowpair(ImgA, reconstructedRGB_YCbCr, "montage");
+imshowpair(ImgA, reconstructedRGB_YCbCr, "diff");
 title('Comparison of Original Image A and Reconstructed Image from YCbCr');
 
 % 5. save the reconstructed image 
